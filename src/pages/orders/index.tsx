@@ -92,6 +92,10 @@ export default function Orders() {
               field: "side",
               headerName: "Lado",
               filterable: true,
+              valueOptions: [
+                { value: "BUY", label: "Compra" },
+                { value: "SELL", label: "Venda" },
+              ],
               renderCell: ({ value }) => (
                 <ChipCell {...sidesTypes[value || "BUY"]} />
               ),
@@ -125,7 +129,11 @@ export default function Orders() {
               headerName: "Status",
               filterable: true,
               type: "singleSelect",
-              valueOptions: ["OPEN", "FILLED", "CANCELLED"],
+              valueOptions: [
+                { value: "OPEN", label: "Aberta" },
+                { value: "EXECUTED", label: "Executada" },
+                { value: "CANCELLED", label: "Cancelada" },
+              ],
               renderCell: ({ value }) => (
                 <ChipCell {...ordersTypes[value || "OPEN"]} />
               ),

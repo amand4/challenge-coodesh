@@ -185,11 +185,11 @@ server.patch("/orders/:id/cancel", (req, res) => {
 
   const oldStatus = order.status;
 
-  order.status = "CANCELED";
+  order.status = "CANCELLED";
 
   db.get("orders").find({ id }).assign(order).write();
 
-  addHistory(id, oldStatus, "CANCELED");
+  addHistory(id, oldStatus, "CANCELLED");
 
   res.json(order);
 });

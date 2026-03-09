@@ -24,6 +24,31 @@ theme = createTheme(theme, {
         },
       },
     },
+    MuiDataGrid: {
+      styleOverrides: {
+        root: {
+          border: 0,
+          color: theme.palette.text.primary,
+          "& .MuiDataGrid-overlay": {
+            backgroundColor: theme.palette.background.paper,
+          },
+          "& .MuiDataGrid-columnHeader:focus, & .MuiDataGrid-columnHeader:focus-within":
+            {
+              outline: "none",
+            },
+        },
+        row: {
+          cursor: "pointer",
+        },
+        cell: {
+          display: "flex",
+          alignItems: "center",
+          "&:focus, &:focus-within": {
+            outline: "none",
+          },
+        },
+      },
+    },
   },
 });
 

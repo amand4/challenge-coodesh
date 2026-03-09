@@ -1,5 +1,5 @@
-const primaryMainColor = "#6A3D89";
-const secondaryMainColor = "#A7B6C0";
+const primaryMainColor = "#c2e189";
+const secondaryMainColor = "#6A3D89";
 
 const deepBackgroundColor = "#f5f5ec";
 const darkenBackgroundColor = "#000039";

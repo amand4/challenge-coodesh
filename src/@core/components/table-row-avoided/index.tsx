@@ -11,6 +11,8 @@ import { NumericFormat } from "react-number-format";
 const TableRowAvoided = (props: TableRowAvoidedProps) => {
   const { label, value, currency, formatter } = props;
 
+  const displayValue = formatter && value ? formatter(value) : value;
+
   if (!value || value.length === 0) {
     return null;
   }
@@ -25,7 +27,7 @@ const TableRowAvoided = (props: TableRowAvoidedProps) => {
         <Typography variant="body2">
           {currency ? (
             <NumericFormat
-              value={parseInt(value) / 100}
+              value={parseInt(value)}
               displayType="text"
               decimalScale={2}
               fixedDecimalScale
@@ -34,10 +36,8 @@ const TableRowAvoided = (props: TableRowAvoidedProps) => {
               prefix="R$ "
             />
           ) : (
-            value
+            displayValue
           )}
-
-          {formatter ? <>{formatter(value)}</> : null}
         </Typography>
       </TableCell>
     </TableRow>

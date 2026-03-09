@@ -129,3 +129,25 @@ Disponível apenas para ordens com status:
 | `/orders`     | Lista de ordens   |
 | `/orders/add` | Criar nova ordem  |
 | `/orders/:id` | Detalhes da ordem |
+
+# 🚀 Melhorias Futuras
+
+Algumas melhorias que poderiam ser implementadas em versões futuras do projeto:
+
+## 🧪 Testes
+
+- Adicionar testes unitários utilizando **Jest** e **React Testing Library**
+- Implementar testes de integração para fluxos principais da aplicação
+- Adicionar testes end-to-end utilizando **Cypress**
+
+## 🎨 Estilização
+
+- Melhorar consistência visual entre componentes
+- Criar um sistema de **design tokens** (cores, espaçamento, tipografia)
+- Criar componentes de UI mais reutilizáveis
+
+## 🧱 Estrutura de Componentes
+
+- Melhorar organização de componentes reutilizáveis
+- Separar componentes de apresentação e lógica
+- Criar uma camada de **containers/hooks** para gerenciamento de estado

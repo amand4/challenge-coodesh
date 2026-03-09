@@ -47,6 +47,19 @@ export default function Add() {
   const navigate = useNavigate();
   const { mutateAsync: createOrder, isPending: isCreating } = usePostOrder();
 
+  const instruments = [
+    "PETR4",
+    "VALE3",
+    "ITUB4",
+    "BBDC4",
+    "BBAS3",
+    "ABEV3",
+    "WEGE3",
+    "MGLU3",
+    "B3SA3",
+    "SUZB3",
+  ];
+
   const {
     handleSubmit,
     control,
@@ -116,9 +129,11 @@ export default function Add() {
               control={control}
               render={({ field }) => (
                 <TextField {...field} select label="Instrumento" fullWidth>
-                  <MenuItem value="PETR4">PETR4</MenuItem>
-                  <MenuItem value="VALE3">VALE3</MenuItem>
-                  <MenuItem value="ITUB4">ITUB4</MenuItem>
+                  {instruments.map((instrument) => (
+                    <MenuItem key={instrument} value={instrument}>
+                      {instrument}
+                    </MenuItem>
+                  ))}
                 </TextField>
               )}
             />

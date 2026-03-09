@@ -1,4 +1,6 @@
 import { Fragment, useMemo, useRef, useState } from "react";
+import { ptBR } from "@mui/x-data-grid/locales";
+
 import { Card } from "@mui/material";
 import {
   DataGrid,
@@ -92,6 +94,7 @@ const Table = <R extends GridValidRowModel>({
           onPaginationModelChange={setPaginationModel}
           onFilterModelChange={setFilterModel}
           disableRowSelectionOnClick
+          localeText={ptBR.components.MuiDataGrid.defaultProps.localeText}
         />
       </Card>
     </Fragment>

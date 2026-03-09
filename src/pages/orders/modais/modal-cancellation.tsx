@@ -36,7 +36,12 @@ export default function ModalCancelOrder({ open, onClose, id }: Props) {
       title="Confirmar Cancelamento"
       actions={
         <>
-          <Button onClick={onClose} disabled={isCancalling}>
+          <Button
+            onClick={onClose}
+            disabled={isCancalling}
+            color="primary"
+            variant="contained"
+          >
             Voltar
           </Button>
 
