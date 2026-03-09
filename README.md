@@ -1,26 +1,131 @@
-# Project Empty Template
+# BASE Exchange - Orders Management
 
-Este é um repositório de exemplo para você começar a desenvolver a questão, leia com atenção os requisitos do enunciado da questão na plataforma e seguia as boas práticas sobre como utilizar este repositório.
+Aplicação web para **criação, visualização e gerenciamento de ordens de compra e venda**, simulando um fluxo simples de exchange/trading.
 
+This is a challenge by Coodesh.
 
-## Readme do Repositório
+---
 
-- Deve conter o título do projeto
-- Uma descrição sobre o projeto em frase
-- Deve conter uma lista com linguagem, framework e/ou tecnologias usadas
-- Como instalar e usar o projeto (instruções)
-- Não esqueça o [.gitignore](https://www.toptal.com/developers/gitignore)
-- Se está usando github pessoal, referencie que é um challenge by coodesh:  
+# 📌 Sobre o Projeto
 
->  This is a challenge by [Coodesh](https://coodesh.com/)
+O **BASE Exchange** é uma aplicação frontend desenvolvida em **React + TypeScript** que permite criar, listar, visualizar e cancelar ordens de compra e venda de instrumentos financeiros simulados.
 
-## Finalização e Instruções para a Apresentação
+O projeto utiliza uma **API mock com JSON Server** para simular persistência de dados.
 
-1. Adicione o link do repositório com a sua solução na questão na plataforma
-2. Verifique se o Readme está bom e faça o commit final em seu repositório;
-3. Envie e aguarde as instruções para seguir. Caso o teste tenha apresentação de vídeo, dentro da tela de entrega será possível gravar após adicionar o link do repositório. Sucesso e boa sorte. =)
+# 🧰 Tecnologias Utilizadas
 
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-## Suporte
+- **React**
+- **TypeScript**
+- **Vite**
+- **Material UI (MUI)**
+- **React Query**
+- **React Router DOM**
+- **React Hook Form**
+- **Yup**
+- **Axios**
+- **JSON Server** (API mock)
+- **ESLint**
 
-Para tirar dúvidas sobre o processo envie uma mensagem diretamente a um especialista no chat da plataforma. 
+# ⚙️ Instalação
+
+Clone o repositório:
+
+```bash
+git clone <https://github.com/amand4/challenge-coodesh>
+```
+
+Entrar na pasta:
+
+```bash
+cd projeto
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+# ▶️ Como Rodar o Projeto
+
+### 1️⃣ Rodar a API Mock
+
+O projeto utiliza JSON Server para simular uma API REST.
+
+```bash
+npm run server
+```
+
+A API será iniciada normalmente em:
+
+http://localhost:3001
+
+### 2️⃣ Rodar o Frontend
+
+Execute:
+
+```bash
+npm run dev
+```
+
+A aplicação estará disponível em:
+http://localhost:5173
+
+# 📊 Funcionalidades
+
+A aplicação permite realizar o gerenciamento completo de ordens.
+
+## 📄 Listar ordens
+
+- Tabela com **paginação server-side**
+- **Filtros**
+- **Ações rápidas**
+
+## ➕ Criar nova ordem
+
+Campos disponíveis:
+
+- Instrumento
+- Lado (**Compra / Venda**)
+- Preço
+- Quantidade
+
+Validação utilizando:
+
+- **React Hook Form**
+- **Yup**
+
+## 🔍 Visualizar detalhes da ordem
+
+Página de detalhes contendo:
+
+- ID
+- Instrumento
+- Lado
+- Status
+- Preço
+- Quantidade
+- Data da ordem
+
+## 📜 Histórico da ordem
+
+Modal exibindo o **histórico de execução da ordem**.
+
+## ❌ Cancelar ordem
+
+Disponível apenas para ordens com status:
+
+- **OPEN**
+- **PARTIAL**
+
+---
+
+# 🔗 Rotas da Aplicação
+
+| Rota          | Descrição         |
+| ------------- | ----------------- |
+| `/orders`     | Lista de ordens   |
+| `/orders/add` | Criar nova ordem  |
+| `/orders/:id` | Detalhes da ordem |

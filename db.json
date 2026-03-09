@@ -1,0 +1,334 @@
+{
+  "orders": [
+    {
+      "id": 1772825476377,
+      "instrument": "Testes",
+      "side": "BUY",
+      "price": 69,
+      "quantity": 909,
+      "remainingQuantity": 909,
+      "status": "OPEN"
+    },
+    {
+      "id": "b384ca26-6789-4f8b-9e40-8a89485a1ceb",
+      "instrument": "VALE3",
+      "side": "BUY",
+      "price": 33,
+      "quantity": 1111,
+      "remainingQuantity": 0,
+      "status": "EXECUTED",
+      "createdAt": "2026-03-06T20:52:14.904Z"
+    },
+    {
+      "id": "21c05498-d7a9-48e8-b1fc-8f8229f621d2",
+      "instrument": "VALE3",
+      "side": "SELL",
+      "price": 33,
+      "quantity": 1111,
+      "remainingQuantity": 0,
+      "status": "EXECUTED",
+      "createdAt": "2026-03-06T21:39:37.479Z"
+    },
+    {
+      "id": "00cb561b-899f-40c5-ba6a-e3ce6e630cd8",
+      "instrument": "ITUB4",
+      "side": "BUY",
+      "price": 40,
+      "quantity": 99,
+      "remainingQuantity": 0,
+      "status": "EXECUTED",
+      "createdAt": "2026-03-06T21:41:11.580Z"
+    },
+    {
+      "id": "560f9429-d15c-497a-b4f6-50c982047c9a",
+      "instrument": "ITUB4",
+      "side": "SELL",
+      "price": 22,
+      "quantity": 99,
+      "remainingQuantity": 0,
+      "status": "EXECUTED",
+      "createdAt": "2026-03-06T21:41:49.094Z"
+    },
+    {
+      "id": "bb7acce4-66fd-4c72-9fdc-229119503b1b",
+      "instrument": "PETR4",
+      "side": "BUY",
+      "price": 31.97,
+      "quantity": 90,
+      "remainingQuantity": 0,
+      "status": "EXECUTED",
+      "createdAt": "2026-03-06T21:42:10.272Z"
+    },
+    {
+      "id": "502d5888-7ed6-4b52-827a-cf5a48b3501e",
+      "instrument": "PETR4",
+      "side": "SELL",
+      "price": 31.95,
+      "quantity": 80,
+      "remainingQuantity": 0,
+      "status": "EXECUTED",
+      "createdAt": "2026-03-06T21:42:30.972Z"
+    },
+    {
+      "id": "38b20d09-0378-4411-80aa-bc3404c6af84",
+      "instrument": "PETR4",
+      "side": "SELL",
+      "price": 12,
+      "quantity": 10,
+      "remainingQuantity": 0,
+      "status": "EXECUTED",
+      "createdAt": "2026-03-06T21:43:59.374Z"
+    },
+    {
+      "id": "545cbe38-8212-4624-9b0b-3482c601a039",
+      "instrument": "PETR4",
+      "side": "BUY",
+      "price": 433,
+      "quantity": 98,
+      "remainingQuantity": 98,
+      "status": "CANCELED",
+      "createdAt": "2026-03-06T21:45:50.833Z"
+    },
+    {
+      "id": "0210288b-978e-4dcf-84b6-383ddb818263",
+      "instrument": "PETR4",
+      "side": "BUY",
+      "price": 100,
+      "quantity": 222,
+      "remainingQuantity": 222,
+      "status": "OPEN",
+      "createdAt": "2026-03-09T15:05:08.533Z"
+    },
+    {
+      "id": "5676ea77-684b-4a1c-a362-a5ab06acd63a",
+      "instrument": "VALE3",
+      "side": "BUY",
+      "price": 22,
+      "quantity": 11,
+      "remainingQuantity": 11,
+      "status": "OPEN",
+      "createdAt": "2026-03-09T15:05:45.497Z"
+    },
+    {
+      "id": "9fc275a4-02ec-46ff-a610-76e754834ac1",
+      "instrument": "VALE3",
+      "side": "BUY",
+      "price": 333,
+      "quantity": 2222,
+      "remainingQuantity": 2222,
+      "status": "OPEN",
+      "createdAt": "2026-03-09T15:05:58.131Z"
+    },
+    {
+      "id": "2732bbc9-8e4e-4c8f-aaf6-9d3555436260",
+      "instrument": "ITUB4",
+      "side": "BUY",
+      "price": 433,
+      "quantity": 42323,
+      "remainingQuantity": 42323,
+      "status": "OPEN",
+      "createdAt": "2026-03-09T15:06:09.835Z"
+    },
+    {
+      "id": "2a0f2e0d-79f6-4c5c-881d-5b44f083b1e5",
+      "instrument": "PETR4",
+      "side": "BUY",
+      "price": 32,
+      "quantity": 2222,
+      "remainingQuantity": 2222,
+      "status": "OPEN",
+      "createdAt": "2026-03-09T15:08:44.476Z"
+    }
+  ],
+  "orderHistory": [
+    {
+      "id": "438b75f5-b26e-4620-aff8-fbde1a7a5a0d",
+      "orderId": "b384ca26-6789-4f8b-9e40-8a89485a1ceb",
+      "fromStatus": null,
+      "toStatus": "OPEN",
+      "timestamp": "2026-03-06T20:52:14.924Z"
+    },
+    {
+      "id": "87cbebe6-5b3c-4b6a-8889-5e0ee90b1c4f",
+      "orderId": "b384ca26-6789-4f8b-9e40-8a89485a1ceb",
+      "fromStatus": "OPEN",
+      "toStatus": "EXECUTED",
+      "timestamp": "2026-03-06T21:39:37.496Z"
+    },
+    {
+      "id": "09617e68-8739-48f8-ab04-3186245db76f",
+      "orderId": "21c05498-d7a9-48e8-b1fc-8f8229f621d2",
+      "fromStatus": "OPEN",
+      "toStatus": "EXECUTED",
+      "timestamp": "2026-03-06T21:39:37.552Z"
+    },
+    {
+      "id": "423694ab-aeda-4b8b-a8c2-737a283a18d7",
+      "orderId": "21c05498-d7a9-48e8-b1fc-8f8229f621d2",
+      "fromStatus": null,
+      "toStatus": "OPEN",
+      "timestamp": "2026-03-06T21:39:37.553Z"
+    },
+    {
+      "id": "ec430666-77df-4d94-b434-5865a72eaecd",
+      "orderId": "00cb561b-899f-40c5-ba6a-e3ce6e630cd8",
+      "fromStatus": null,
+      "toStatus": "OPEN",
+      "timestamp": "2026-03-06T21:41:11.590Z"
+    },
+    {
+      "id": "1c38be3d-0e0c-422f-b413-137de1bd6c34",
+      "orderId": "00cb561b-899f-40c5-ba6a-e3ce6e630cd8",
+      "fromStatus": "OPEN",
+      "toStatus": "EXECUTED",
+      "timestamp": "2026-03-06T21:41:49.170Z"
+    },
+    {
+      "id": "ee7520fd-535a-47a0-88c0-d610d1b44ae6",
+      "orderId": "560f9429-d15c-497a-b4f6-50c982047c9a",
+      "fromStatus": "OPEN",
+      "toStatus": "EXECUTED",
+      "timestamp": "2026-03-06T21:41:49.172Z"
+    },
+    {
+      "id": "aa735d8e-084d-4801-a308-38dd2eb846d2",
+      "orderId": "560f9429-d15c-497a-b4f6-50c982047c9a",
+      "fromStatus": null,
+      "toStatus": "OPEN",
+      "timestamp": "2026-03-06T21:41:49.212Z"
+    },
+    {
+      "id": "7751cbe7-9448-4bf4-815d-ff39e87096a9",
+      "orderId": "bb7acce4-66fd-4c72-9fdc-229119503b1b",
+      "fromStatus": null,
+      "toStatus": "OPEN",
+      "timestamp": "2026-03-06T21:42:10.284Z"
+    },
+    {
+      "id": "a898b7b3-4897-49a3-a15b-1247585addc8",
+      "orderId": "bb7acce4-66fd-4c72-9fdc-229119503b1b",
+      "fromStatus": "OPEN",
+      "toStatus": "PARTIAL",
+      "timestamp": "2026-03-06T21:42:31.027Z"
+    },
+    {
+      "id": "edfa58eb-61df-41c5-a91f-3cfcc032c3cf",
+      "orderId": "502d5888-7ed6-4b52-827a-cf5a48b3501e",
+      "fromStatus": "OPEN",
+      "toStatus": "EXECUTED",
+      "timestamp": "2026-03-06T21:42:31.035Z"
+    },
+    {
+      "id": "7f55b230-ad81-4a7d-805d-57ec8b9dc19b",
+      "orderId": "502d5888-7ed6-4b52-827a-cf5a48b3501e",
+      "fromStatus": null,
+      "toStatus": "OPEN",
+      "timestamp": "2026-03-06T21:42:31.070Z"
+    },
+    {
+      "id": "96da8f0b-47e6-4753-bed4-18bb5a066fee",
+      "orderId": "bb7acce4-66fd-4c72-9fdc-229119503b1b",
+      "fromStatus": "PARTIAL",
+      "toStatus": "EXECUTED",
+      "timestamp": "2026-03-06T21:43:59.397Z"
+    },
+    {
+      "id": "37524b61-0bc7-4e13-b5ed-c61636d6e864",
+      "orderId": "38b20d09-0378-4411-80aa-bc3404c6af84",
+      "fromStatus": "OPEN",
+      "toStatus": "EXECUTED",
+      "timestamp": "2026-03-06T21:43:59.400Z"
+    },
+    {
+      "id": "38ec8bc4-fb57-479a-9aae-97e0e9974b47",
+      "orderId": "38b20d09-0378-4411-80aa-bc3404c6af84",
+      "fromStatus": null,
+      "toStatus": "OPEN",
+      "timestamp": "2026-03-06T21:43:59.408Z"
+    },
+    {
+      "id": "ebcee135-9092-4a12-b54c-bf99c0e997f3",
+      "orderId": "545cbe38-8212-4624-9b0b-3482c601a039",
+      "fromStatus": null,
+      "toStatus": "OPEN",
+      "timestamp": "2026-03-06T21:45:50.845Z"
+    },
+    {
+      "id": "59b227a8-eef1-4240-9a19-e123f1f99608",
+      "orderId": "545cbe38-8212-4624-9b0b-3482c601a039",
+      "fromStatus": "OPEN",
+      "toStatus": "CANCELED",
+      "timestamp": "2026-03-06T21:45:58.392Z"
+    },
+    {
+      "id": "7bfb7cc8-193a-4ede-bbe8-c8d50c69a9e1",
+      "orderId": "0210288b-978e-4dcf-84b6-383ddb818263",
+      "fromStatus": null,
+      "toStatus": "OPEN",
+      "timestamp": "2026-03-09T15:05:08.539Z"
+    },
+    {
+      "id": "83156b6f-42ac-4650-ba49-68ff202fdddb",
+      "orderId": "5676ea77-684b-4a1c-a362-a5ab06acd63a",
+      "fromStatus": null,
+      "toStatus": "OPEN",
+      "timestamp": "2026-03-09T15:05:45.502Z"
+    },
+    {
+      "id": "f4a40db0-76fd-4f1d-9ad7-d5289da9cb25",
+      "orderId": "9fc275a4-02ec-46ff-a610-76e754834ac1",
+      "fromStatus": null,
+      "toStatus": "OPEN",
+      "timestamp": "2026-03-09T15:05:58.134Z"
+    },
+    {
+      "id": "7846d297-7f1b-42ba-8e8c-1d94f4d72d74",
+      "orderId": "2732bbc9-8e4e-4c8f-aaf6-9d3555436260",
+      "fromStatus": null,
+      "toStatus": "OPEN",
+      "timestamp": "2026-03-09T15:06:09.838Z"
+    },
+    {
+      "id": "23947e41-d5da-41b4-a61d-3a55ef698194",
+      "orderId": "2a0f2e0d-79f6-4c5c-881d-5b44f083b1e5",
+      "fromStatus": null,
+      "toStatus": "OPEN",
+      "timestamp": "2026-03-09T15:08:44.482Z"
+    }
+  ],
+  "trades": [
+    {
+      "id": "7e0d950a-eea5-4a47-9aea-4754118cdbf5",
+      "buyOrderId": "b384ca26-6789-4f8b-9e40-8a89485a1ceb",
+      "sellOrderId": "21c05498-d7a9-48e8-b1fc-8f8229f621d2",
+      "quantity": 1111,
+      "price": 33,
+      "timestamp": "2026-03-06T21:39:37.480Z"
+    },
+    {
+      "id": "df5f89e9-4f3a-48df-a488-ac11698bb91f",
+      "buyOrderId": "00cb561b-899f-40c5-ba6a-e3ce6e630cd8",
+      "sellOrderId": "560f9429-d15c-497a-b4f6-50c982047c9a",
+      "quantity": 99,
+      "price": 40,
+      "timestamp": "2026-03-06T21:41:49.097Z"
+    },
+    {
+      "id": "5ef396e6-4088-441a-876a-fe1e74b852b1",
+      "buyOrderId": "bb7acce4-66fd-4c72-9fdc-229119503b1b",
+      "sellOrderId": "502d5888-7ed6-4b52-827a-cf5a48b3501e",
+      "quantity": 80,
+      "price": 31.97,
+      "timestamp": "2026-03-06T21:42:30.974Z"
+    },
+    {
+      "id": "661c1a23-c6d8-4cac-a5bf-9821687ba0ba",
+      "buyOrderId": "bb7acce4-66fd-4c72-9fdc-229119503b1b",
+      "sellOrderId": "38b20d09-0378-4411-80aa-bc3404c6af84",
+      "quantity": 10,
+      "price": 31.97,
+      "timestamp": "2026-03-06T21:43:59.375Z"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
