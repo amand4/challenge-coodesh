@@ -33,7 +33,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 Clone o repositório:
 
 ```bash
-git clone <https://github.com/amand4/challenge-coodesh>
+git clone git@github.com:amand4/challenge-coodesh.git
 ```
 
 Entrar na pasta:
